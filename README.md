@@ -25,25 +25,6 @@ A modern, dark-themed portfolio website with AI chat functionality built with Re
 - SQLite Database
 - Groq AI API (LLama 3.1)
 
-## 📦 Project Structure
-
-```
-PersonalPostfolio/
-├── backend/
-│   ├── main.py           # FastAPI application
-│   ├── database.py       # SQLite database models
-│   ├── resume_data.py    # Resume data for AI context
-│   ├── requirements.txt  # Python dependencies
-│   └── .env.example      # Environment variables template
-│
-└── frontend/
-    ├── src/
-    │   ├── components/   # React components
-    │   ├── App.tsx       # Main application
-    │   └── main.tsx      # Entry point
-    ├── public/           # Static assets
-    └── package.json      # Node dependencies
-```
 
 ## 🔧 Setup Instructions
 
@@ -90,29 +71,6 @@ npm run dev
 
 The frontend will be running at `http://localhost:5173`
 
-## 🔑 Environment Variables
-
-### Backend (.env)
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-### Getting a Groq API Key
-1. Go to [console.groq.com](https://console.groq.com)
-2. Sign up for a free account
-3. Navigate to API Keys
-4. Create a new API key
-5. Copy and paste into your `.env` file
-
-## 🌐 API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/` | GET | Health check |
-| `/api/chat` | POST | Send message to AI chatbot |
-| `/api/chat/history/{session_id}` | GET | Get chat history |
-| `/api/contact` | POST | Submit contact form |
-| `/api/resume` | GET | Get resume data |
 
 ## 📱 Features Breakdown
 
@@ -131,28 +89,4 @@ GROQ_API_KEY=your_groq_api_key_here
 - **Publications** - Research & achievements
 - **Contact** - Form & social links
 
-## 🚀 Deployment
 
-### Frontend (Vercel)
-```bash
-cd frontend
-npm run build
-# Deploy dist folder to Vercel
-```
-
-### Backend (Render/Railway)
-```bash
-# Add requirements.txt and main.py to your repo
-# Configure start command: uvicorn main:app --host 0.0.0.0 --port $PORT
-```
-
-## 📄 License
-
-MIT License - Feel free to use this template for your own portfolio!
-
-## 👨‍💻 Author
-
-**Aryan Khandelwal**
-- Email: aryankhandelwal243@gmail.com
-- GitHub: [FlashArk271](https://github.com/FlashArk271)
-- LinkedIn: [aryan10khandelwal](https://linkedin.com/in/aryan10khandelwal)
