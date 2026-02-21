@@ -1,0 +1,8 @@
+# Frontend Build Settings for Vercel
+# Root Directory: frontend
+# Build Command: npm run build
+# Output Directory: dist
+# Install Command: npm install
+
+# Environment Variables needed:
+# VITE_API_URL=https://your-backend-url.onrender.com
