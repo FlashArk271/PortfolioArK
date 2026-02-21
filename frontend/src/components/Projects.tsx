@@ -41,7 +41,7 @@ const projects: Project[] = [
     technologies: ["Python", "React.js", "LLM Integration", "subprocess", "API"],
     category: "aiml",
     live: "#",
-    github: "https://github.com/FlashArk271",
+    github: "https://github.com/FlashArk271/IntelliCompiler",
     featured: true
   },
   {
@@ -55,7 +55,7 @@ const projects: Project[] = [
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "REST API"],
     category: "fullstack",
     live: "#",
-    github: "https://github.com/FlashArk271",
+    github: "https://github.com/FlashArk271/ProductDashboard",
     featured: true
   },
   {
@@ -68,7 +68,7 @@ const projects: Project[] = [
     ],
     technologies: ["React.js", "Express.js", "MySQL", "REST API", "JWT", "RBAC"],
     category: "fullstack",
-    github: "https://github.com/FlashArk271"
+    github: "https://github.com/FlashArk271/StoreRatingWithAdmin"
   },
   {
     title: "AI-Powered Resume Suite",
